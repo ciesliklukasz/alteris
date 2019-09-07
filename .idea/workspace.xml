@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d3c4cb5-ada6-4142-83f3-3e4116f45089" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/MaterialBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/MaterialGroupBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/UnitMeasureBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/GroupController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MeasureController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Updater/Updater.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialDataValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialGroupDataValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/UnitMeasureDataValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Builder/BuilderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Controller/AbstractController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/EmptyDataException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/InvalidDataException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/ObjectNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Model/WriteModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Repository/AbstractRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Updater/UpdaterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Validator/AbstractValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Validator/ValidatorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Resources/config/routes.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Resources/config/services.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/MaterialGroup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+              <folding>
+                <element signature="e#41#89#0#PHP" expanded="true" />
+                <element signature="e#1145#1319#0#PHP" expanded="true" />
+                <element signature="e#1566#1656#0#PHP" expanded="true" />
+                <element signature="e#1716#1832#0#PHP" expanded="true" />
+                <element signature="e#1838#1924#0#PHP" expanded="true" />
+                <element signature="e#1982#2090#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="338">
+                <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/UnitMeasure.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+              <folding>
+                <element signature="e#41#73#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Controller/GroupController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding>
+                <element signature="e#57#111#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Controller/AbstractController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+              <folding>
+                <element signature="e#50#64#0#PHP" expanded="true" />
+                <element signature="e#519#1064#0#PHP" expanded="true" />
+                <element signature="e#1070#1303#0#PHP" expanded="true" />
+                <element signature="e#1309#2296#0#PHP" expanded="true" />
+                <element signature="e#2302#3139#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/Material.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="e#41#73#0#PHP" expanded="true" />
+                <element signature="e#1456#1583#0#PHP" expanded="true" />
+                <element signature="e#1589#1706#0#PHP" expanded="true" />
+                <element signature="e#1791#1864#0#PHP" expanded="true" />
+                <element signature="e#1870#1943#0#PHP" expanded="true" />
+                <element signature="e#1949#2047#0#PHP" expanded="true" />
+                <element signature="e#2053#2145#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AppBundle</find>
+      <find>cache</find>
+      <find>PATCH</find>
+      <find>output</find>
+      <find>MaterialAction</find>
+      <find>Material</find>
+      <find>UnitMeasureAction</find>
+      <find>UnitMeasure</find>
+      <find>MaterialController</find>
+      <find>Contro</find>
+      <find>function getRepository</find>
+      <find>MaterialRepository</find>
+      <find>MaterialRepos</find>
+      <find>material</find>
+      <find>material_group_connection</find>
+      <find>/a</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>MaterialGroupAction</replace>
+      <replace>UnitMeasureAction</replace>
+      <replace>`/a</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
+        <option value="$PROJECT_DIR$/app/cache/dev/fos_rest/allowed_methods.cache.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Builder/BuinderInterface.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/InvalidDataException.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/EmptyDataException.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Updater/MaterialUpdater.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/ObjectNotFoundException.php" />
+        <option value="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php" />
+        <option value="$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php" />
+        <option value="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/UnitMeasureController.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MaterialTestController.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MaterialGroupController.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/TestController.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/UnitController.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Resources/config/material/routes.yml" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Resources/config/routes.yml" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialValidator.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/UnitMeasureValidator.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Updater/UnitMeasureUpdater.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Builder/BuilderInterface.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/MaterialBuilder.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/MaterialGroupBuilder.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/UnitMeasureBuilder.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/GroupController.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MaterialController.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MeasureController.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Validator/ValidatorInterface.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialGroupDataValidator.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialDataValidator.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/UnitMeasureDataValidator.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Repository/AbstractRepository.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Updater/UpdaterInterface.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Application/Updater/Updater.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Validator/AbstractValidator.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/MaterialGrouopConnection.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Repository/MaterialGroupConnectionRepository.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Repository/MaterialGroupRepository.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Repository/MaterialRepository.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Repository/UnitMeasureRepository.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/MaterialGroupConnection.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Controller/AbstractController.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Model/WriteModel.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/Material.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/MaterialGroup.php" />
+        <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/UnitMeasure.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php54" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php55" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-acl" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/phpcollection/phpcollection" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer" />
+      <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/jms/parser-lib" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/api-doc-bundle" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="alteris-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alteris-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alteris-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alteris-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alteris-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alteris-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MaterialBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alteris-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alteris-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MaterialBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alteris-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alteris-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MaterialBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alteris-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alteris-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MaterialBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alteris-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alteris-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MaterialBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d3c4cb5-ada6-4142-83f3-3e4116f45089" name="Default Changelist" comment="" />
+      <created>1567680697183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567680697183</updated>
+      <workItem from="1567680698344" duration="7506000" />
+      <workItem from="1567788872606" duration="1311000" />
+      <workItem from="1567839516051" duration="2370000" />
+      <workItem from="1567843867758" duration="740000" />
+      <workItem from="1567844643715" duration="22309000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34236000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/app" />
+      <path value="$PROJECT_DIR$/src" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Config/Loader/FileLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Updater/MaterialUpdater.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="e#54#103#0#PHP" expanded="true" />
+            <element signature="e#684#1013#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="n#registerBundles#0;n#AppKernel#0;n#!!top" expanded="true" />
+            <element signature="n#registerContainerConfiguration#0;n#AppKernel#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerAware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Controller/FOSRestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="152" column="10" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding>
+            <element signature="e#5301#5571#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/RuntimeReflectionService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+          <folding>
+            <element signature="e#2046#2134#0#PHP" expanded="true" />
+            <element signature="e#2597#2868#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Reflection/Reflection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="646" column="20" selection-start-line="646" selection-start-column="20" selection-end-line="646" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="186" column="26" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
+          <folding>
+            <element signature="e#5407#7555#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+          <folding>
+            <element signature="e#16142#16408#0#PHP" expanded="true" />
+            <element signature="e#19198#19328#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MeasureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#167#259#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Controller/UnitMeasureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#57#111#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Resources/config/material/routes.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Resources/config/routes.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Builder/MaterialBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="e#54#103#0#PHP" expanded="true" />
+            <element signature="e#311#420#0#PHP" expanded="true" />
+            <element signature="e#426#800#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Builder/MaterialGroupBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="e#54#103#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Builder/UnitMeasureBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="e#54#103#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MaterialController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#57#111#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MeasureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="e#57#111#0#PHP" expanded="true" />
+            <element signature="e#575#718#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Validator/ValidatorInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialGroupDataValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#56#108#0#PHP" expanded="true" />
+            <element signature="e#498#641#0#PHP" expanded="true" />
+            <element signature="e#642#827#0#PHP" expanded="true" />
+            <element signature="e#833#1567#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialDataValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Validator/UnitMeasureDataValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Builder/BuilderInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Exception/EmptyDataException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Repository/AbstractRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="e#50#81#0#PHP" expanded="true" />
+            <element signature="e#225#433#0#PHP" expanded="true" />
+            <element signature="e#439#564#0#PHP" expanded="true" />
+            <element signature="e#570#723#0#PHP" expanded="true" />
+            <element signature="e#723#877#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Updater/Updater.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="32" column="86" lean-forward="true" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
+          <folding>
+            <element signature="e#54#95#0#PHP" expanded="true" />
+            <element signature="e#612#934#0#PHP" expanded="true" />
+            <element signature="e#928#1821#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Updater/UpdaterInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Validator/AbstractValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#49#102#0#PHP" expanded="true" />
+            <element signature="e#384#671#0#PHP" expanded="true" />
+            <element signature="e#1002#1128#0#PHP" expanded="true" />
+            <element signature="e#1306#1602#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Repository/MaterialGroupRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#45#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Repository/MaterialRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#45#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Repository/UnitMeasureRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#45#99#0#PHP" expanded="true" />
+            <element signature="e#201#285#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Repository/MaterialGroupConnectionRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#45#99#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/MaterialGroupConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="e#41#82#0#PHP" expanded="true" />
+            <element signature="e#818#923#0#PHP" expanded="true" />
+            <element signature="e#362#448#0#PHP" expanded="true" />
+            <element signature="e#711#808#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#1671#1774#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Application/Controller/GroupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#57#111#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Model/WriteModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Core/Controller/AbstractController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <element signature="e#50#64#0#PHP" expanded="true" />
+            <element signature="e#519#1064#0#PHP" expanded="true" />
+            <element signature="e#1070#1303#0#PHP" expanded="true" />
+            <element signature="e#1309#2296#0#PHP" expanded="true" />
+            <element signature="e#2302#3139#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle/Tests/Fixtures/Controller/ParamsAnnotatedController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="338">
+            <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/Material.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#41#73#0#PHP" expanded="true" />
+            <element signature="e#1456#1583#0#PHP" expanded="true" />
+            <element signature="e#1589#1706#0#PHP" expanded="true" />
+            <element signature="e#1791#1864#0#PHP" expanded="true" />
+            <element signature="e#1870#1943#0#PHP" expanded="true" />
+            <element signature="e#1949#2047#0#PHP" expanded="true" />
+            <element signature="e#2053#2145#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/MaterialGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+          <folding>
+            <element signature="e#41#89#0#PHP" expanded="true" />
+            <element signature="e#1145#1319#0#PHP" expanded="true" />
+            <element signature="e#1566#1656#0#PHP" expanded="true" />
+            <element signature="e#1716#1832#0#PHP" expanded="true" />
+            <element signature="e#1838#1924#0#PHP" expanded="true" />
+            <element signature="e#1982#2090#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/UnitMeasure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="e#41#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

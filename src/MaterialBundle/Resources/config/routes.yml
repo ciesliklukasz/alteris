@@ -1,0 +1,17 @@
+material:
+    resource: "MaterialBundle\Application\Controller\MaterialController"
+    type: rest
+    name_prefix: api_material_
+    prefix: /material
+
+group:
+    resource: "MaterialBundle\Application\Controller\GroupController"
+    type: rest
+    name_prefix: api_material_group_
+    prefix: /material_group
+
+unit:
+    resource: "MaterialBundle\Application\Controller\MeasureController"
+    type: rest
+    name_prefix: api_unit_measure_
+    prefix: /unit_measure

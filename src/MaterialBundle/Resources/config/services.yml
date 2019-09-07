@@ -1,0 +1,39 @@
+services:
+    material_repository:
+        class: MaterialBundle\Repository\MaterialRepository
+        arguments: [@doctrine.orm.entity_manager]
+    material_group_repository:
+        class: MaterialBundle\Repository\MaterialGroupRepository
+        arguments: [@doctrine.orm.entity_manager]
+    unit_measure_repository:
+        class: MaterialBundle\Repository\UnitMeasureRepository
+        arguments: [@doctrine.orm.entity_manager]
+
+    material_data_validator:
+        class: MaterialBundle\Application\Validator\MaterialDataValidator
+        arguments: [@material_group_repository, @unit_measure_repository]
+    material_builder:
+        class: MaterialBundle\Application\Builder\MaterialBuilder
+        arguments: [@material_data_validator]
+    material_updater:
+        class: MaterialBundle\Application\Updater\Updater
+        arguments: [@material_repository, @material_data_validator]
+
+    material_group_data_validator:
+        class: MaterialBundle\Application\Validator\MaterialGroupDataValidator
+        arguments: [@material_group_repository]
+    material_group_builder:
+        class: MaterialBundle\Application\Builder\MaterialGroupBuilder
+        arguments: [@material_group_data_validator]
+    material_group_updater:
+        class: MaterialBundle\Application\Updater\Updater
+        arguments: [@material_group_repository, @material_group_data_validator]
+
+    unit_measure_data_validator:
+        class: MaterialBundle\Application\Validator\UnitMeasureDataValidator
+    unit_measure_builder:
+        class: MaterialBundle\Application\Builder\UnitMeasureBuilder
+        arguments: [@unit_measure_data_validator]
+    unit_measure_updater:
+        class: MaterialBundle\Application\Updater\Updater
+        arguments: [@unit_measure_repository, @unit_measure_data_validator]

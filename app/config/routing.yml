@@ -1,0 +1,4 @@
+material_bundle:
+    resource: "@MaterialBundle/Resources/config/routes.yml"
+    type:     rest
+    prefix:   /api
