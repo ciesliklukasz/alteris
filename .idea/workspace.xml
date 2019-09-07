@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3c4cb5-ada6-4142-83f3-3e4116f45089" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/MaterialBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/MaterialGroupBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Builder/UnitMeasureBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/GroupController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Controller/MeasureController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Updater/Updater.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialDataValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/MaterialGroupDataValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Application/Validator/UnitMeasureDataValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Builder/BuilderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Controller/AbstractController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/EmptyDataException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/InvalidDataException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Exception/ObjectNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Model/WriteModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Repository/AbstractRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Updater/UpdaterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Validator/AbstractValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Core/Validator/ValidatorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Resources/config/routes.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaterialBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +35,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="338">
-                <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <first_editor relative-caret-position="702">
+                <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,7 +52,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/UnitMeasure.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
@@ -210,10 +190,10 @@
         <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/MaterialGroupConnection.php" />
         <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Controller/AbstractController.php" />
         <option value="$PROJECT_DIR$/src/MaterialBundle/Core/Model/WriteModel.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/Material.php" />
         <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/MaterialGroup.php" />
         <option value="$PROJECT_DIR$/src/MaterialBundle/Entity/UnitMeasure.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -336,6 +316,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
@@ -374,12 +355,12 @@
       <workItem from="1567788872606" duration="1311000" />
       <workItem from="1567839516051" duration="2370000" />
       <workItem from="1567843867758" duration="740000" />
-      <workItem from="1567844643715" duration="22309000" />
+      <workItem from="1567844643715" duration="22872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34236000" />
+    <option name="totallyTimeSpent" value="34799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -836,16 +817,6 @@
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="338">
-            <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaterialBundle/Entity/Material.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -884,6 +855,16 @@
           <folding>
             <element signature="e#41#73#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="702">
+            <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

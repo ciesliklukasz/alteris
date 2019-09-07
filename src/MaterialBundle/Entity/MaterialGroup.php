@@ -30,7 +30,6 @@ class MaterialGroup implements WriteModel
     private $name;
 
     /**
-     * @var PersistentCollection
      * @ORM\ManyToMany(targetEntity="MaterialGroup", inversedBy="parent")
      * @ORM\JoinTable(name="material_group_connection",
      *      joinColumns={@ORM\JoinColumn(name="from_group", referencedColumnName="uuid")},
@@ -40,7 +39,6 @@ class MaterialGroup implements WriteModel
     private $children;
 
     /**
-     * @var PersistentCollection
      * @ORM\ManyToMany(targetEntity="MaterialGroup", mappedBy="children")
      */
     private $parent;
@@ -67,7 +65,7 @@ class MaterialGroup implements WriteModel
         $this->name = $name;
     }
 
-    public function getChildren(): PersistentCollection
+    public function getChildren()
     {
         return $this->children;
     }
@@ -80,7 +78,7 @@ class MaterialGroup implements WriteModel
         $this->getChildren()->add($children);
     }
 
-    public function getParent(): PersistentCollection
+    public function getParent()
     {
         return $this->parent;
     }
